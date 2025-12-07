@@ -18,8 +18,8 @@ import java.util.Scanner;
 * */
 public class EmployeeService {
 
-    private EmployeeRepository er=new EmployeeRepository();
-    private Scanner scanner=new Scanner(System.in);
+    private final EmployeeRepository er=new EmployeeRepository();
+    private final Scanner scanner=new Scanner(System.in);
     public  void save(){
         Employee employee=new Employee();
         try {
